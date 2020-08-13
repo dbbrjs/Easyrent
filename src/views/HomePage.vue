@@ -443,8 +443,10 @@ export default {
 .cursor {
   cursor: pointer;
 }
-.nick:hover {
+.head4 .nick:hover span,
+.head4 .nick:hover i {
   color: rgb(238, 82, 82);
+  font-size: 18px;
 }
 .head4 span {
   font-size: 16px;
@@ -458,28 +460,32 @@ export default {
 }
 .head4 div {
   display: inline-block;
+  line-height: 59px;
 }
 .all {
   text-align: center;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
   height: auto;
-  background: url(https://public.danke.com.cn/public-20181128-FgCy12oaif0osTYpdxf6TvxaugjW)
-    no-repeat center 0;
+  background: url(../assets/2.jpg) no-repeat center 0;
   background-size: 100% 100%;
 }
 .headTitle > div:last-of-type:hover {
   border: 0;
 }
+.headTitle span {
+  color: rgb(27, 23, 23);
+  font-weight: 500;
+}
 .headTitle span:hover {
-  color: #160547;
+  color: #d9dde9;
   font-size: 18px;
 }
 .headTitle > div:hover {
-  border-bottom: 2px solid #00aadc;
+  border-bottom: 2px solid #7a85ec;
 }
 .headTitle {
-  line-height: 60px;
+  line-height: 59px;
 }
 .headNav {
   height: 60px;

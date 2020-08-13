@@ -95,9 +95,6 @@
         <el-form-item label="房间地址" :label-width="formLabelWidth">
           <el-input v-model="form.houseaddress" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="房间类型" :label-width="formLabelWidth">
-          <el-input v-model="form.housetype" autocomplete="off"></el-input>
-        </el-form-item>
         <el-form-item label="房间能住人数" :label-width="formLabelWidth">
           <el-input v-model="form.houselimit" autocomplete="off"></el-input>
         </el-form-item>
@@ -160,9 +157,6 @@
             v-model="alertform.houseaddress"
             autocomplete="off"
           ></el-input>
-        </el-form-item>
-        <el-form-item label="房间类型" :label-width="formLabelWidth">
-          <el-input v-model="alertform.housetype" autocomplete="off"></el-input>
         </el-form-item>
         <el-form-item label="房间能住人数" :label-width="formLabelWidth">
           <el-input
@@ -241,7 +235,6 @@ export default {
         housename: "",
         housedescribe: "",
         houseaddress: "",
-        housetype: "",
         houselimit: "",
         houseroom: "",
         houserefund: ""
@@ -259,7 +252,6 @@ export default {
         housename: "",
         housedescribe: "",
         houseaddress: "",
-        housetype: "",
         houselimit: "",
         houseroom: "",
         houserefund: ""
